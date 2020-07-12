@@ -385,7 +385,7 @@ namespace Ooui.Wasm.Build.Tasks
     <link rel=""stylesheet"" href=""https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"">
 </head>
 <body>
-    <div id=""ooui-body"" class=""container-fluid"">
+    <div id=""ooui-body"" class=""container-fluid"" style=""min-height: 400px; min-width: 400px; padding: 0;"">
         <p id=""loading""><i class=""fa fa-refresh fa-spin"" style=""font-size:14px;margin-right:0.5em;""></i> Loading...</p>
     </div>
     <script defer type=""text/javascript"" src=""ooui.js""></script>
